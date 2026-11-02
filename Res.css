@@ -1,0 +1,199 @@
+@media (max-width: 1030px) {
+  .container {
+    width: 90%;
+  }
+
+  .navbar__menu .navbar__list {
+    gap: 25px;
+  }
+
+  .navbar__actions .btn-subscribe {
+    display: none;
+  }
+
+  .hero .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .hero__content,
+  .hero__media {
+    width: 100%;
+  }
+
+  .hero__media .image-frame {
+    width: 100%;
+    height: 400px;
+  }
+
+  .latest-articles .container {
+    flex-direction: column;
+  }
+
+  .latest-articles__header .label-badge {
+    display: none;
+  }
+
+  .latest-articles__main,
+  .latest-articles__sidebar {
+    width: 100%;
+  }
+
+  .latest-articles__sidebar {
+    margin-top: 0;
+    position: static;
+  }
+
+  .COMMUNITY .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .left-comunity,
+  .right-community {
+    width: 100%;
+  }
+
+  .footer .container.flex-between {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .left-footer,
+  .mid-footer,
+  .right-footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .container {
+    padding: 8px 14px;
+  }
+
+  .navbar__menu {
+    display: none;
+  }
+
+  .navbar__actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar__actions .menu-btn {
+    display: flex;
+  }
+
+  .AUTHORS .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card1-author,
+  .card2-author,
+  .card3-author {
+    width: 100%;
+  }
+
+  .AUTHORS .box-author,
+  .AUTHORS .box2-author {
+    display: none;
+  }
+
+  .header-section p::after {
+    left: 40%;
+  }
+  .COMMUNITY .header-section p::after{
+    top: 80px;
+    
+  }
+
+}
+
+@media (max-width: 600px) {
+  .navbar__actions .btn-subscribe {
+    padding: 6px 10px;
+  }
+
+  .hero .container {
+    margin-block: 40px;
+    gap: 30px;
+  }
+  .hero .container h2{
+    font-size: 50px;
+  }
+
+  .hero__buttons {
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .btn {
+    padding: 10px 12px;
+    gap: 6px;
+  }
+
+  .btn img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .hero__media .image-frame {
+    height: 250px;
+  }
+
+  .latest-articles__main .latest-articles__header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .latest-articles__main .article-card {
+    padding: 16px;
+  }
+
+  .article-card {
+    flex-direction: column;
+  }
+
+  .article-card__media,
+  .article-card__body {
+    width: 100%;
+  }
+  .article-card .image-frame {
+    width: 100%;
+    height: 200px;
+  }
+
+  .article-card__meta {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .sidebar-card {
+    padding: 20px;
+  }
+
+  .card1-author,
+  .card2-author,
+  .card3-author {
+    padding: 20px;
+  }
+
+  .btn-join {
+    padding: 16px 28px;
+  }
+
+  .right-community {
+    padding: 20px;
+  }
+
+  .bootom-footer {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .linkes-footer {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
